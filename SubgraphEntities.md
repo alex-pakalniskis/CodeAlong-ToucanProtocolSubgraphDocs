@@ -32,7 +32,7 @@
 | timestamp | BigInt! | |
 | tx | String! | | 
 | contentURI | String | | 
-| comments | [BatchComment!]! @derivedFrom(field: "batch") | | 
+| comments | [BatchComment!](#batchcomment) | | 
 | aggregated | Boolean | | 
 
 
@@ -53,7 +53,7 @@
 | timestamp | BigInt!
 | tx | String!
 | projectId | String!
-| vintages | [ProjectVintage!]! @derivedFrom(field: "project")
+| vintages | [ProjectVintage!](#projectvintage)
 | standard | String!
 | methodology  |String
 | region | String
@@ -75,7 +75,7 @@
 | startTime | BigInt!
 | endTime | BigInt!
 | project | Project
-| batches | [BatchToken!]! @derivedFrom(field: "projectVintage")
+| batches | [BatchToken!](#batchtoken)
 | totalVintageQuantity | BigInt!
 | isCorsiaCompliant | Boolean!
 | isCCPcompliant | Boolean!
@@ -138,7 +138,7 @@
 | retiringEntityString | String!
 | beneficiaryString | String!
 | retirementMessage | String!
-| retirements | [Retirement!]! @derivedFrom(field: "certificate")
+| retirements | [Retirement!](#retirement)
 
 ## Redeem
 | Field | Type | Description |
