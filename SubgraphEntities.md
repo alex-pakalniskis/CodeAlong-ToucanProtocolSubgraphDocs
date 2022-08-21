@@ -141,18 +141,38 @@
 | retirements | [Retirement!]! @derivedFrom(field: "certificate")
 
 ## Redeem
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| amount | BigInt!
+| timestamp | BigInt!
+| token | TCO2Token!
+| pool | String!
+| creator | User!
 
 ## Deposit
+| Field | Type | Description |
+| --- | --- | --- | 
 
 ## AccessRole
+| Field | Type | Description |
+| --- | --- | --- | 
 
 ## BridgeTokenRequest
+| Field | Type | Description |
+| --- | --- | --- | 
 
 ## ToucanToken
+| Field | Type | Description |
+| --- | --- | --- | 
 
 ## User
+| Field | Type | Description |
+| --- | --- | --- | 
 
 ## Aggregation
+| Field | Type | Description |
+| --- | --- | --- | 
 
 
 
