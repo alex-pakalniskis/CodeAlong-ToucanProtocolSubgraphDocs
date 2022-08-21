@@ -86,6 +86,17 @@
 | tco2Token | TCO2Token
 
 ## TCO2Token
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| creator | User!
+| createdAt | BigInt!
+| creationTx | String!
+| projectVintage | ProjectVintage!
+| name | String!
+| symbol | String!
+| address | String!
+| score | BigInt!
 
 ## TCO2Balance
 
