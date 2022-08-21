@@ -188,15 +188,34 @@
 ## ToucanToken
 | Field | Type | Description |
 | --- | --- | --- | 
+| id | ID!
+| name | String!
+| symbol | String!
+| address | String!
+| decimals | Int!
 
 ## User
 | Field | Type | Description |
 | --- | --- | --- | 
+| id | ID!
+| batchesOwned | [BatchToken!]! @derivedFrom(field: "owner")
+| batchesCreated | [BatchToken!]! @derivedFrom(field: "creator")
+| batchComments | [BatchComment!]! @derivedFrom(field: "sender")
+| projectsOwned | [Project!]! @derivedFrom(field: "owner")
+| projectsCreated | [Project!]! @derivedFrom(field: "creator")
+| vintagesOwned | [ProjectVintage!]! @derivedFrom(field: "owner")
+| vintagesCreated | [ProjectVintage!]! @derivedFrom(field: "creator")
+| retirementsCreated | [Retirement!]! @derivedFrom(field: "creator")
+| redeemsCreated | [Redeem!]! @derivedFrom(field: "creator")
+| tokensOwned | [TCO2Balance!] @derivedFrom(field: "user")
+| bridgeRequestOwned | [BridgeTokenRequest!]! @derivedFrom(field: "bridger")
 
 ## Aggregation
 | Field | Type | Description |
 | --- | --- | --- | 
-
+| id | ID!
+| key | String!
+| value | BigInt!
 
 
 
