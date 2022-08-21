@@ -2,22 +2,22 @@
 
 ## Entities
 
-* BatchToken
-* BatchComment
-* Project
-* ProjectVintage
-* TCO2Token
-* TCO2Balance
-* PooledTCO2Token
-* Retirement
-* RetirementCertificate
-* Redeem
-* Deposit
-* AccessRole
-* BridgeTokenRequest
-* ToucanToken
-* User
-* Aggregation
+* [BatchToken](#batchtoken)
+* [BatchComment](#batchcomment)
+* [Project](#project)
+* [ProjectVintage](#projectvintage)
+* [TCO2Token](#tco2token)
+* [TCO2Balance](#tco2balance)
+* [PooledTCO2Token](#pooledtco2token)
+* [Retirement](#retirement)
+* [RetirementCertificate](#retirementcertificate)
+* [Redeem](#redeem)
+* [Deposit](#deposit)
+* [AccessRole](#accessrole)
+* [BridgeTokenRequest](#bridgetokenrequest)
+* [ToucanToken](#toucantoken)
+* [User](#user)
+* [Aggregation](#aggregation)
 
 ## BatchToken
 | Field | Type | Description | 
