@@ -45,6 +45,23 @@
 | comment | String! | |
 
 ## Project
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID! | | 
+| creator | User!
+| owner | User!
+| timestamp | BigInt!
+| tx | String!
+| projectId | String!
+| vintages | [ProjectVintage!]! @derivedFrom(field: "project")
+| standard | String!
+| methodology  |String
+| region | String
+| storageMethod | String
+| method | String
+| emissionType | String
+| category | String
+| uri | String
 
 ## ProjectVintage
 
