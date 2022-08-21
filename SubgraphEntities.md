@@ -172,6 +172,18 @@
 ## BridgeTokenRequest
 | Field | Type | Description |
 | --- | --- | --- | 
+| id | ID!
+| sentTx | String
+| sentTimestamp | BigInt
+| receivedTx | String
+| receivedTimestamp | BigInt
+| originDomain | BigInt!
+| toDomain | BigInt!
+| sentToken | ToucanToken
+| receivedToken | ToucanToken
+| bridger | User!
+| amount | BigInt!
+| requesthash | Bytes!
 
 ## ToucanToken
 | Field | Type | Description |
