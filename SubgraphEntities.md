@@ -198,17 +198,17 @@
 | Field | Type | Description |
 | --- | --- | --- | 
 | id | ID!
-| batchesOwned | [BatchToken!]! @derivedFrom(field: "owner")
-| batchesCreated | [BatchToken!]! @derivedFrom(field: "creator")
-| batchComments | [BatchComment!]! @derivedFrom(field: "sender")
-| projectsOwned | [Project!]! @derivedFrom(field: "owner")
-| projectsCreated | [Project!]! @derivedFrom(field: "creator")
-| vintagesOwned | [ProjectVintage!]! @derivedFrom(field: "owner")
-| vintagesCreated | [ProjectVintage!]! @derivedFrom(field: "creator")
-| retirementsCreated | [Retirement!]! @derivedFrom(field: "creator")
-| redeemsCreated | [Redeem!]! @derivedFrom(field: "creator")
-| tokensOwned | [TCO2Balance!] @derivedFrom(field: "user")
-| bridgeRequestOwned | [BridgeTokenRequest!]! @derivedFrom(field: "bridger")
+| batchesOwned | [BatchToken!](#batchtoken)
+| batchesCreated | [BatchToken!](#batchtoken)
+| batchComments | [BatchComment!](#batchcomment)
+| projectsOwned | [Project!](#project)
+| projectsCreated | [Project!](#project)
+| vintagesOwned | [ProjectVintage!](#projectvintage)
+| vintagesCreated | [ProjectVintage!](#projectvintage)
+| retirementsCreated | [Retirement!](#retirement)
+| redeemsCreated | [Redeem!](#redeem)
+| tokensOwned | [TCO2Balance!](#tco2balance)
+| bridgeRequestOwned | [BridgeTokenRequest!](#bridgetokenrequest)
 
 ## Aggregation
 | Field | Type | Description |
