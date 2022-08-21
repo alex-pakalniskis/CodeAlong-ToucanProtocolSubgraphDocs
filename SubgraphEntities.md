@@ -107,7 +107,14 @@
 | balance | BigInt!
 
 ## PooledTCO2Token
-
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| token | TCO2Token!
+| poolAddress | String!
+| amount | BigInt!
+  
+  
 ## Retirement
 
 ## RetirementCertificate
