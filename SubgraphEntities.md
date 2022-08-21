@@ -99,6 +99,12 @@
 | score | BigInt!
 
 ## TCO2Balance
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| user | User!
+| token | TCO2Token!
+| balance | BigInt!
 
 ## PooledTCO2Token
 
