@@ -114,8 +114,17 @@
 | poolAddress | String!
 | amount | BigInt!
   
-  
 ## Retirement
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| creationTx | String!
+| amount | BigInt!
+| timestamp | BigInt!
+| token | TCO2Token!
+| creator | User!
+| eventId | BigInt!
+| certificate | RetirementCertificate
 
 ## RetirementCertificate
 
