@@ -20,6 +20,21 @@
 * Aggregation
 
 ## BatchToken
+| Field | Type | Description | 
+| --- | --- | --- | 
+| id | ID! | |
+| creator | User! | 
+| owner | User! | | 
+| projectVintage | ProjectVintage | | 
+| serialNumber | String | |
+| quantity | BigInt | |
+| confirmationStatus | Int! | |
+| timestamp | BigInt! | |
+| tx | String! | | 
+| contentURI | String | | 
+| comments | [BatchComment!]! @derivedFrom(field: "batch") | | 
+| aggregated | Boolean | | 
+
 
 ## BatchComment
 
