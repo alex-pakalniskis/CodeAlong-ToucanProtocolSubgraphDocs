@@ -4,6 +4,7 @@
 Toucan Protocol Docs
 * [Toucan Protocol Subgraph Manifest](https://ipfs.io/ipfs/Qmbzn47G3NBgHuDyFqXaf646SCRz2CK93VBkUD3AV7nGtk)
 * [Protocol Summary - Toucan Protocol Docs](https://docs.toucan.earth/protocol/introduction/overview)
+* [ToucanProtocol/toucan-sdk/schema.ts](https://github.com/ToucanProtocol/toucan-sdk/blob/cf327fc70b50841263a42cba5871ae9fb4cd4fb1/src/types/schemas.ts)
 
 Reference Subgraph Docs
 * [Juicebox Subgraph docs](https://info.juicebox.money/dev/subgraph/)
