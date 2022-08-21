@@ -29,20 +29,17 @@ Overview
   * The Juicebox subgraph schema is the same on all networks, and can be found on the following page. For information on structuring Graph queries, read the Graph docs. You can also reference the tools used for juicebox.money.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Subgraph Entities
+Sablier
+* [Subgraph entities](https://docs.sablier.finance/protocol/subgraph/entities)
+* [Subgraph schema.graphql](https://github.com/sablierhq/subgraph/blob/main/schema.graphql)
+
+Connext
+* [Subgraph entities](https://docs.connext.network/developers/subgraph/Entities)
+* [Subgraph schema.graphql](https://github.com/connext/nxtp/blob/56a166f3ecb50cc10356dd96c257e2e4d47f29e3/packages/deployments/subgraph/src/amarok-runtime-v0/schema.graphql)
+
+Juicebox
+* [Subgraph entities](https://info.juicebox.money/dev/subgraph/entities)
+* [Subgraph schema.graphql](https://github.com/jbx-protocol/juice-subgraph/blob/main/schema.graphql)
 
 Sample Queries
