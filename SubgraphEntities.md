@@ -37,6 +37,12 @@
 
 
 ## BatchComment
+| Field | Type | Description | 
+| --- | --- | --- |
+| id | ID! | | 
+| sender | User | | 
+| batch | BatchToken! | |
+| comment | String! | |
 
 ## Project
 
