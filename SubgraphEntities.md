@@ -127,6 +127,18 @@
 | certificate | RetirementCertificate
 
 ## RetirementCertificate
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| creationTx | String!
+| updateTxs | [String!]!
+| createdAt | BigInt!
+| retiringEntity | User!
+| beneficiary | User!
+| retiringEntityString | String!
+| beneficiaryString | String!
+| retirementMessage | String!
+| retirements | [Retirement!]! @derivedFrom(field: "certificate")
 
 ## Redeem
 
