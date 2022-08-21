@@ -153,10 +153,21 @@
 ## Deposit
 | Field | Type | Description |
 | --- | --- | --- | 
+| id | ID!
+| amount | BigInt!
+| timestamp | BigInt!
+| token | TCO2Token!
+| pool | String!
+| creator | User!
 
 ## AccessRole
 | Field | Type | Description |
 | --- | --- | --- | 
+| id | ID!
+| contractAddress | String!
+| role | Bytes!
+| member | User!
+| granted | Boolean!
 
 ## BridgeTokenRequest
 | Field | Type | Description |
