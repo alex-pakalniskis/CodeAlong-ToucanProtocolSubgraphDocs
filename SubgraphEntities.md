@@ -64,6 +64,26 @@
 | uri | String
 
 ## ProjectVintage
+| Field | Type | Description |
+| --- | --- | --- | 
+| id | ID!
+| creator | User!
+| owner | User!
+| timestamp | BigInt!
+| tx | String!
+| name | String!
+| startTime | BigInt!
+| endTime | BigInt!
+| project | Project
+| batches | [BatchToken!]! @derivedFrom(field: "projectVintage")
+| totalVintageQuantity | BigInt!
+| isCorsiaCompliant | Boolean!
+| isCCPcompliant | Boolean!
+| coBenefits | String!
+| correspAdjustment | String!
+| additionalCertification | String!
+| issuanceDate | BigInt!
+| tco2Token | TCO2Token
 
 ## TCO2Token
 
